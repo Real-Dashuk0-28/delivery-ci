@@ -8,7 +8,7 @@ def calculate_delivery(subtotal, express=False):
         raise ValueError("Сумма заказа не может быть отрицательной")
 
     if subtotal < 1000:
-        cost = 300
+        cost = 400
     elif 100 <= subtotal < 5000:
         cost = 150
     else:
